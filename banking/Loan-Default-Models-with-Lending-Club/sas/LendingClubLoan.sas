@@ -52,7 +52,7 @@ options FMTSEARCH=(LendFMT);
 ********************************************************************************;
 %let WBDataLib  = Lend;                * libref for workbench data             *;
 %let inputData  = LCLoanData;          * input table                           *;
-%let inputFile  = %str('/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.csv');
+%let inputFile  = %str('/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.tsv');
 
 proc import datafile="/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.tsv"
             out=&WBDataLib..&inputData. (drop=VAR1)
