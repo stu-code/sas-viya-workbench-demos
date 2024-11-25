@@ -35,9 +35,9 @@ ods graphics on;
 **  NOTE :  CHANGE LOCATIONS BELOW AS PER YOUR WORKBENCH  **;
 
 *****************************************************;
-libname Lend '/workspaces/banking/sas-viya-workbench-demos-test/banking/Loan-Default-Models-with-Lending-Club/data';
+libname Lend '/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/data';
 run;
-libname LendFMT '/workspaces/banking/sas-viya-workbench-demos-test/banking/Loan-Default-Models-with-Lending-Club/formats';
+libname LendFMT '/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/formats';
 run;
 options FMTSEARCH=(LendFMT);
 
@@ -52,9 +52,9 @@ options FMTSEARCH=(LendFMT);
 ********************************************************************************;
 %let WBDataLib  = Lend;                * libref for workbench data             *;
 %let inputData  = LCLoanData;          * input table                           *;
-%let inputFile  = %str('/workspaces/banking/sas-viya-workbench-demos-test/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.csv');
+%let inputFile  = %str('/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.csv');
 
-proc import datafile="/workspaces/banking/sas-viya-workbench-demos-test/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.tsv"
+proc import datafile="/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/data/loan_data.tsv"
             out=&WBDataLib..&inputData. (drop=VAR1)
             dbms=dlm
             replace;
@@ -391,7 +391,7 @@ title;
 
 ****************************************************************************;
 proc astore;
-    download rstore=forestAstore store="/workspaces/banking/sas-viya-workbench-demos-test/banking/Loan-Default-Models-with-Lending-Club/astores/WB_forest.sasast";
+    download rstore=forestAstore store="/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/astores/WB_forest.sasast";
 run;
 
 
@@ -419,7 +419,7 @@ NOTE: Change location of Astore below.
 **;
 ****************************************************************************;
 proc astore;
-    download rstore=gboostAstore store="/workspaces/banking/sas-viya-workbench-demos-test/banking/Loan-Default-Models-with-Lending-Club/astores/WB_gboost.sasast";
+    download rstore=gboostAstore store="/workspaces/myfolder/sas-viya-workbench-demos/banking/Loan-Default-Models-with-Lending-Club/astores/WB_gboost.sasast";
 run;
 
 
