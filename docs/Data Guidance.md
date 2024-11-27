@@ -68,5 +68,6 @@ Your demo requires some data in order for your code to demonstrate value.  Pleas
 
 In some situations where you lack a suitable dataset to base your demo upon, you may consider some of the options provided below.  Again, note that the datasets provided below are suggestions, and their license / usage characteristics has been noted as-is.  As a contributor, please take responsibility to check current permissibility of the datasets mentioned below and ensure you are compliant, thus keeping the repo compliant too.
 
-- Our sister project, [sas-viya-workbench-examples](https://github.com/sassoftware/sas-viya-workbench-examples), which focusses on code examples, makes use of some datasets.
+1. Our sister project, [sas-viya-workbench-examples](https://github.com/sassoftware/sas-viya-workbench-examples), which focusses on code examples, makes use of some datasets.
    - Refer [here](https://github.com/sassoftware/sas-viya-workbench-examples/blob/main/data/README.md) for a description of those datasets.
+2. Refer this [SAS Communities article](https://communities.sas.com/t5/SAS-Communities-Library/FREE-SAS-Sample-Data-Sets-for-Forecasting/ta-p/808455) for a list of datasets, mostly with a time series focus, but also mentioning other useful datasets.
