@@ -70,4 +70,5 @@ In some situations where you lack a suitable dataset to base your demo upon, you
 
 1. Our sister project, [sas-viya-workbench-examples](https://github.com/sassoftware/sas-viya-workbench-examples), which focusses on code examples, makes use of some datasets.
    - Refer [here](https://github.com/sassoftware/sas-viya-workbench-examples/blob/main/data/README.md) for a description of those datasets.
-2. Refer this [SAS Communities article](https://communities.sas.com/t5/SAS-Communities-Library/FREE-SAS-Sample-Data-Sets-for-Forecasting/ta-p/808455) for a list of datasets, mostly with a time series focus, but also mentioning other useful datasets.
+2. This [SAS Note](https://sas.service-now.com/csm?id=kb_article_view&sysparm_article=KB0036314) provides reference to a number of datasets oriented towards time series.
+3. Make use of the Example datasets on the SAS Viya platform, which are provided [here](https://support.sas.com/documentation/onlinedoc/viya/examples.htm).
