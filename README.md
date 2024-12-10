@@ -13,6 +13,7 @@ Refer [here](./DEMOS_LIST.md) for the full list of demos.  Additional demos are 
 | :--- | :--- | :-: | :-: | :-: | :-: |
 | [Loan Default Model](./banking/Loan-Default-Models-with-Lending-Club/)| Fit, assess and compare predictive models for loan defaults | [Banking](./banking/) | yijian.ching@sas.com | SAS, Python | 21NOV2024 |
 | [Synthetic Census Data Generation](./government/census-synthetic-data-generation/)| Generate synthetic data on citizen attributes based on census data | [Government](./government/) | matt.gampe@sas.com | Python | 21NOV2024 |
+| [Parkinsons Modelling](./health-life-sciences/parkinsons-modelling/)| Predict patient's classification based on clinical characteristics and other biomarkers using synthetic data | [Health & Life Sciences](./health-life-sciences/) | lleyton.seymour@sas.com | Python | 09DEC2024 |
 
 
 ## Getting Started - How to use these demos  
@@ -44,4 +45,6 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 - [SAS® Viya® Workbench Procedures](https://documentation.sas.com/?cdcId=workbenchcdc&cdcVersion=default&docsetId=workbenchprocs&docsetTarget=n1xot8d31pfd0in1puiry6rhrum8.htm)
 - [SAS® Language Elements by Name, Product, and Category for SAS® Viya® Workbench](https://documentation.sas.com/?cdcId=workbenchcdc&cdcVersion=default&docsetId=vwballprodsle&docsetTarget=titlepage.htm)
 - [SAS® Viya® Workbench: Python Programming Guide](https://documentation.sas.com/?cdcId=workbenchcdc&cdcVersion=default&docsetId=explore&docsetTarget=titlepage.htm)
+
+- 
 
