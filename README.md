@@ -46,5 +46,3 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 - [SAS® Language Elements by Name, Product, and Category for SAS® Viya® Workbench](https://documentation.sas.com/?cdcId=workbenchcdc&cdcVersion=default&docsetId=vwballprodsle&docsetTarget=titlepage.htm)
 - [SAS® Viya® Workbench: Python Programming Guide](https://documentation.sas.com/?cdcId=workbenchcdc&cdcVersion=default&docsetId=explore&docsetTarget=titlepage.htm)
 
-- 
-
