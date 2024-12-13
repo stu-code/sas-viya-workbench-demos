@@ -2,9 +2,9 @@
 
 ## Introduction to Synthetic Data
 
-Synthetic data is artificially generated data that replicate the statistical properties of real-world datasets while protecting sensitive information. In the era of data-driven decision-making, synthetic data has emerged as a powerful tool to address privacy concerns while maintaining the utility of data for analysis and innovation.
+Synthetic data is artificially generated data that replicates the statistical properties of real-world datasets while protecting sensitive information. In the era of data-driven decision-making, synthetic data has emerged as a powerful tool to address privacy concerns while maintaining the utility of data for analysis and innovation.
 
-### Why Synthetic Data Matters?
+### Why does synthetic data matter?
 Synthetic data solves the challenge of sharing and analyzing sensitive data in a secure, privacy-preserving manner. By substituting real data with synthetic counterparts, organizations can:
 
 * Enable innovation while adhering to stringent data protection regulations (e.g., GDPR, HIPAA).
