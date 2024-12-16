@@ -13,7 +13,7 @@ Refer [here](./DEMOS_LIST.md) for the full list of demos.  Additional demos are 
 | :--- | :--- | :-: | :-: | :-: | :-: |
 | [Loan Default Model](./banking/Loan-Default-Models-with-Lending-Club/)| Fit, assess and compare predictive models for loan defaults | [Banking](./banking/) | yijian.ching@sas.com | SAS, Python | 21NOV2024 |
 | [Synthetic Census Data Generation](./government/census-synthetic-data-generation/)| Generate synthetic data on citizen attributes based on census data | [Government](./government/) | matt.gampe@sas.com | Python | 21NOV2024 |
-| [Parkinsons Modelling](./health-life-sciences/parkinsons-modelling/)| Predict patient's classification based on clinical characteristics and other biomarkers using synthetic data | [Health & Life Sciences](./health-life-sciences/) | lleyton.seymour@sas.com | Python | 09DEC2024 |
+| [Privacy Risk for Synthetic Data](./government/sdg-anonymity-evaluation/)| Calculate metrics (e.g. Singling Out risk) to evaluate privacy and re-identification risk for synthetically generated data | [Government](./government/) | josiah.chua@sas.com | Python | 16DEC2024 |
 
 
 ## Getting Started - How to use these demos  

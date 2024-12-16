@@ -15,3 +15,4 @@ Note that as these are the early days of the repo, some folders are yet to be po
 | :--- | :--- | :-: | :-: | :-: | :-: |
 | [Loan Default Model](./banking/Loan-Default-Models-with-Lending-Club/)| Fit, assess and compare predictive models for loan defaults | [Banking](./banking/) | yijian.ching@sas.com | SAS, Python | 21NOV2024 |
 | [Synthetic Census Data Generation](./government/census-synthetic-data-generation/)| Generate synthetic data on citizen attributes based on census data | [Government](./government/) | matt.gampe@sas.com | Python | 21NOV2024 |
+| [Privacy Risk for Synthetic Data](./government/sdg-anonymity-evaluation/)| Calculate metrics (e.g. Singling Out risk) to evaluate privacy and re-identification risk for synthetically generated data | [Government](./government/) | josiah.chua@sas.com | Python | 16DEC2024 |
