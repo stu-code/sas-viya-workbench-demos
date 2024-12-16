@@ -34,6 +34,9 @@ This workbench demo demonstrates how to utilize the open-source Python library [
 
 **Currently the demo notebook is only for Singling Out Risk. The other 2 will be added in the future.**
 
+### References
+*   ["A Unified Framework for Quantifying Privacy Risk in Synthetic Data", M. Giomi et al, PoPETS 2023](https://arxiv.org/abs/2211.10459).
+
 ## Data
 We shall be using data from the Adult Census Bureau database, made available  [here](https://archive.ics.uci.edu/dataset/2/adult) and released under license [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). This data was extracted from the 1994 Census Bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics).
 
