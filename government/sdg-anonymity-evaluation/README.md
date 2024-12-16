@@ -1,4 +1,4 @@
-# Synthetic Data Privacy Risk Evaluation with Anonymeter
+# Synthetic Data Privacy Risk (Singling Out Risk) Evaluation with Anonymeter
 
 ## Introduction to Synthetic Data
 
@@ -32,13 +32,12 @@ Definition: The risk that sensitive attributes of an individual can be inferred 
 ## Privacy Risks Evaluation
 This workbench demo demonstrates how to utilize the open-source Python library [Anonymeter](https://github.com/statice/anonymeter) to evaluate the different possible privacy risks. It includes in-depth explanations of the different risks, how the library evaluates the risk, and how to interpret the results. 
 
-**Currently the demo notebook is only for Singling Out Risk. The other 2 will be added in the future.**
-
-### References
-*   ["A Unified Framework for Quantifying Privacy Risk in Synthetic Data", M. Giomi et al, PoPETS 2023](https://arxiv.org/abs/2211.10459).
+**Currently the demo notebook is only for Singling Out Risk. The other two will be added in the future.**
 
 ## Data
 We shall be using data from the Adult Census Bureau database, made available  [here](https://archive.ics.uci.edu/dataset/2/adult) and released under license [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). This data was extracted from the 1994 Census Bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics).
+
+We use this data as a basis to generate synthetic data and then calculate Singling Out risk against the generated data.  The data selected is for purposes of showing an example of how to calculate risk metrics.  Feel free to replace the data source with other datasets and modify the notebook to run privacy risk metrics on the same.
 
 The notebook contains steps to pull the data.
 
@@ -62,16 +61,21 @@ pip install -r config/requirements.txt
 
 ### Synthetic Data
 
-This notebook does not generate the synthetic data from the dataset mentioned. It can be generated, using other methods such as this [SDM Notebook](/government/census-synthetic-data-generation/python/GMM_Adult_Census_Income_Data_Workbench.ipynb), or services like SAS Data Maker.
+This notebook does not generate the synthetic data from the dataset mentioned. It can be generated, using other methods such as this [SDM Notebook](/government/census-synthetic-data-generation/python/GMM_Adult_Census_Income_Data_Workbench.ipynb), or other methods such as [procedures available in SAS Viya / Workbench](https://github.com/sassoftware/sas-studio-custom-steps/blob/main/SDG%20-%20Generate%20Synthetic%20Data%20through%20GANs/extras/SDG%20-%20Generate%20Synthetic%20Data%20through%20GANs.sas) or SAS Data Maker.
 
 The notebook will contain comments on where to enter the file path to the synthetic data.
 
 ## Output
-Various Evaluation Metrics and Plots to illustrate the privacy risk of the synthetic data set.
+Various evaluation metrics and plots that illustrate privacy risk of the synthetic data set.
+
+### References
+*   ["A Unified Framework for Quantifying Privacy Risk in Synthetic Data", M. Giomi et al, PoPETS 2023](https://arxiv.org/abs/2211.10459).
+*   [Anonymeter PyPi package](https://pypi.org/project/anonymeter/)
+*   Adult Census Bureau database, available  [here](https://archive.ics.uci.edu/dataset/2/adult), Ronny Kohavi (Consultant/Stanford) and Barry Becker (Silicon Graphics)
 
 ## Contact
 *   Josiah Chua (josiah.chua@sas.com)
 
 ## Change Log
-*   Version 1.0.0 (12DEC2024)
+*   Version 1.0.0 (16DEC2024)
     *   Initial release on GitHub
