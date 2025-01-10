@@ -36,9 +36,11 @@ The Dataset used for this demo features 100k rows and 9 total columns.
 
 **Data Source**
 
-Vincent Sigillito (vgs@aplcen.apl.jhu.edu) Research Center, RMI Group Leader Applied Physics Laboratory, The Johns Hopkins University Johns Hopkins Road Laurel, MD 20707
+Originally from the National Institute of Diabetes and Digestive and Kidney Diseases, donated by Vincent Sigillito (vgs@aplcen.apl.jhu.edu) Research Center, RMI Group Leader Applied Physics Laboratory, The Johns Hopkins University Johns Hopkins Road Laurel, MD 20707
 
 Collected from: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset/data
+
+Terms of Use: CC-0
 
 ## Code Catalog
 
