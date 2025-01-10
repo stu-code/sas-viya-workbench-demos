@@ -21,7 +21,7 @@ To replicate the results, please make sure to execute the code in the following 
 3) 3_exploiting_data_augmentation.ipynb
 
 ## Data Catalog
-The Dataset used for this demo features 100k rows and 9 total columns.
+This dataset is the Pima Indians Diabetes Dataset, originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. The dataset features 100k rows and 9 total columns.
 | Column Name | Description | 
 |-----------|-------------|
 | Gender | Gender refers to the biological sex of the individual (Male, Female, Other) |
@@ -38,7 +38,7 @@ The Dataset used for this demo features 100k rows and 9 total columns.
 
 Originally from the National Institute of Diabetes and Digestive and Kidney Diseases, donated by Vincent Sigillito (vgs@aplcen.apl.jhu.edu) Research Center, RMI Group Leader Applied Physics Laboratory, The Johns Hopkins University Johns Hopkins Road Laurel, MD 20707
 
-Collected from: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset/data
+Source URL: https://www.kaggle.com/datasets/mathchi/diabetes-data-set
 
 Terms of Use: CC-0
 
