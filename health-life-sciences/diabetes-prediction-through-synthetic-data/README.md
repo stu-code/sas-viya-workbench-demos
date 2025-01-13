@@ -52,3 +52,7 @@ Terms of Use: [CC-0](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Contact
   - Fabio Ceruti (fabio.ceruti@sas.com)
+
+## Change Log
+  - Version 1.0.0
+    - Initial Contribution to GitHub
