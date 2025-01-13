@@ -12,7 +12,7 @@ Specifically, the demo showcases:
 The code available in this demo creates the following outputs, all stored in the folder output programmatically created by 1_analysis_and_modelling.ipynb:
 - test_predictions.csv => Contains predictions on test data when the model is trained without synthetic data
 - train_valid.csv => Contains the partitioned data used in training and validating the model. It is also used for the generation of synthetic data
-- synthetic_data.csv => Contains the observations generated from the Generative Adverserial Network (GAN) model.
+- synthetic_data.csv => Contains the observations generated from the Generative Adversarial Network (GAN) model.
 
 ## Execution Order
 To replicate the results, please make sure to execute the code in the following order:
