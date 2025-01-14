@@ -6,7 +6,7 @@ Demos are organised under the following folders.  Click on the respective folder
 
 Note that as these are the early days of the repo, some folders are yet to be populated.  Please check back regularly to view updates.
 
-| [Banking](./banking/) | [Government](./government/) | [Health and Life Sciences](./health_life_sciences/) | Miscellaneous |
+| [Banking](./banking/) | [Government](./government/) | [Health and Life Sciences](./health-life-sciences) | Miscellaneous |
 | :--- | :--- | :-: | :-: |
 
 ## List of demos
