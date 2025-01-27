@@ -23,7 +23,7 @@ This demo uses an adapted [Open Source Imaging Consortium](https://www.osicild.o
 The original data set was taken from [this location](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/data), and the following changes were made:
 
 - Drop DICOM data for size considerations
-- Rename training.csv to patient.csv (we partition this data as test.csv doesn't include true values to score against)
+- Rename training.csv to patient.csv (we partition training data as test.csv doesn't include true values to score against)
 
 
 ## Parameters
