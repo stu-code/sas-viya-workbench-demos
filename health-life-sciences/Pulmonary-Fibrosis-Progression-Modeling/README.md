@@ -24,7 +24,7 @@ The original data set was taken from [this location](https://www.kaggle.com/comp
 
 - Drop DICOM data for size considerations
 
-NOTE: when downloading the data you will only need [train.csv](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/data?select=train.csv) (we partition training data as the 'test.csv' doesn't include true values to score against). You can also directly download the dataset from the terminal: 
+NOTE: when downloading the data you will only need [train.csv](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/data?select=train.csv) (we partition training data as 'test.csv' doesn't include true values to score against). You can also directly download the dataset from the terminal: 
 
 ```python
 kaggle competitions download osic-pulmonary-fibrosis-progression -f train.csv
