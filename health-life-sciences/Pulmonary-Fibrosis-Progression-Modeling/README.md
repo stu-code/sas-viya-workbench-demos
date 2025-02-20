@@ -20,10 +20,15 @@ pip install <your_package>
 
 This demo uses an adapted [Open Source Imaging Consortium](https://www.osicild.org/kaggle01.html) data set licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
-The original data set was taken from [this location](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/data), and the following changes were made:
+The original data set was taken from [this location](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/data?select=train.csv), and the following changes were made:
 
 - Drop DICOM data for size considerations
-- Rename training.csv to patient.csv (we partition training data as test.csv doesn't include true values to score against)
+
+NOTE: when downloading the data you will only need [train.csv](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression/data?select=train.csv) (we partition training data as the 'test.csv' doesn't include true values to score against). You can also directly download the dataset from the terminal: 
+
+```python
+kaggle competitions download osic-pulmonary-fibrosis-progression -f train.csv
+```
 
 
 ## Parameters

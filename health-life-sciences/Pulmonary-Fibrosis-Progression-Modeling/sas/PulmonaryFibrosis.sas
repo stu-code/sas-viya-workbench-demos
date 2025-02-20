@@ -41,7 +41,7 @@ libname PF "&FilePath";
 run;
 
 /* Load Patient Data */
-proc import datafile="&FilePath/patient.csv"
+proc import datafile="&FilePath/train.csv"
 			dbms=csv
 			out=PF.PATIENT
 			replace;
