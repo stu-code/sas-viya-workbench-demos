@@ -40,6 +40,8 @@ Review and run the example Python notebook located [here](./python/Diabetes_Pred
 
 **Note:** If you have used the build script to create a virtual environment, make sure that you select the pharmmod kernel when running the notebook.
 
+
+
 ## About the Data
 The data used in this example refers to the Pima Indians Diabetes Dataset, originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. The dataset features 100k rows and 9 total columns.
 | Column Name | Description | 
@@ -61,19 +63,14 @@ The example notebook provided in this project can be run as-is without requiring
 
 
 ## Output
-List down the output provided by the code.  For example, a model astore, or an output table of rejected applications etc.
-
-## Execution Order
-In case you have more than one program, and require the user to run them in an order, specify the order in a list here.
+An html version of the example notebook is available in the [output](./output/) folder.
 
 ## Contact
   - Sundaresh Sankaran (sundaresh.sankaran@sas.com)
 
 ## Change Log
 
-(recommended to follow semvar versioning, but please feel free to follow whatever you feel most comfortable with)
-
-- Version 1.0.0 (15NOV2024)
+- Version 1.0.0 (16APR2025)
   - Initial release on GitHub
  
     
