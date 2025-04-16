@@ -1,3 +1,0 @@
-swat
-pandas
-bs4
