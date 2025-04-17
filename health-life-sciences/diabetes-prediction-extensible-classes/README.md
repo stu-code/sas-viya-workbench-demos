@@ -1,9 +1,10 @@
-# Diabetes Prediction Through Extensible Python Classes
+# Diabetes Prediction Through Python Classes
 
-This repository uses the same example of Diabetes prediction as shown in this [example by Fabio Ceruti](../diabetes-prediction-through-synthetic-data/) but with an objective of demonstrating how this can be accomplished in a terse and object-oriented manner through a Python class provided as part of a package offering data science and analytics operations.
+This repository uses the same example of Diabetes prediction as shown in this [earlier contribution by Fabio Ceruti](../diabetes-prediction-through-synthetic-data/) but with an objective of demonstrating how this can be accomplished in a terse and object-oriented manner through a Python class provided as part of a package offering data science and analytics operations.
 
 For this purpose, we use a Python package, Pharmmod, which was created as an example showcased in [Paper OS-364](https://pharmasug.org/conferences/pharmasug-2025-us/paper-presentations/#OS-364) of [PharmaSUG 2025](https://pharmasug.org/conferences/pharmasug-2025-us/), an annual conference focussing on analytics in the pharmaceutical and life sciences industry.
 
+Refer this [GitHub repository](https://github.com/SundareshSankaran/pharmmodel_class) for more details on the PharmMod class.
 
 ## Prerequisites
 
@@ -70,7 +71,7 @@ An html version of the example notebook is available in the [output](./output/) 
 
 ## Change Log
 
-- Version 1.0.0 (16APR2025)
+- Version 1.0.1 (16APR2025)
   - Initial release on GitHub
  
     
