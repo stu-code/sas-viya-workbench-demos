@@ -13,7 +13,7 @@ Refer [here](./DEMOS_LIST.md) for the full list of demos.  Additional demos are 
 | :--- | :--- | :-: | :-: | :-: | :-: |
 | [Loan Default Model](./banking/Loan-Default-Models-with-Lending-Club/)| Fit, assess and compare predictive models for loan defaults | [Banking](./banking/) | yijian.ching@sas.com | SAS, Python | 21NOV2024 |
 | [Modeling for Pulmonary Fibrosis Progression](./health-life-sciences/Pulmonary-Fibrosis-Progression-Modeling/)| Coding examples in SAS for predicting pulmonary fibrosis progression using anonymized patient data | [Health & Life Sciences](./health-life-sciences/) | lleyton.seymour@sas.com | SAS | 13MAR2025 |
-| [Diabetes Prediction through Synthetic Data](./health-life-sciences/diabetes-prediction-through-synthetic-data/)| Predict for diabetes and compare predictions with data augmented through synthetic data generation | [Health & Life Sciences](./health-life-sciences/) | fabio.ceruti@sas.com | SAS, Python | 13JAN2025 |
+| [Diabetes Prediction through Python Classes](./health-life-sciences/diabetes-prediction-extensible-classes/)| Predict for diabetes using a Python class through an Object-oriented Programming paradigm| [Health & Life Sciences](./health-life-sciences/) | sundaresh.sankaran@sas.com | Python | 17APR2025 |
 
 
 ## Getting Started - How to use these demos  
@@ -34,9 +34,8 @@ This project is licensed under the [Apache 2.0 License](LICENSE).
 
 
 ## Contact
-- Yi Jian Ching (yijian.ching@sas.com)
 - Sundaresh Sankaran (sundaresh.sankaran@sas.com / sundaresh.sankaran@gmail.com)
-
+- Yi Jian Ching 
 
 ## Additional Resources
 
