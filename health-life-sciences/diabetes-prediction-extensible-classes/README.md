@@ -41,10 +41,8 @@ Review and run the example Python notebook located [here](./python/Diabetes_Pred
 
 **Note:** If you have used the build script to create a virtual environment, make sure that you select the pharmmod kernel when running the notebook.
 
-
-
 ## About the Data
-The data used in this example refers to the Pima Indians Diabetes Dataset, originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. The dataset features 100k rows and 9 total columns.
+The data used in this example refers to the [Pima Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database), originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective is to predict based on diagnostic measurements whether a patient has diabetes. The dataset features 100k rows and 9 total columns.
 | Column Name | Description | 
 |-----------|-------------|
 | Gender | Gender refers to the biological sex of the individual (Male, Female, Other) |
@@ -62,7 +60,6 @@ The example pulls the dataset directly from the repo where it's hosted.  However
 ## Parameters 
 The example notebook provided in this project can be run as-is without requiring any parameters.  Once you are familiar with the notebook's commands, you are free to replace the parameters with your own data and arguments.
 
-
 ## Output
 An html version of the example notebook is available in the [output](./output/) folder.
 
@@ -73,5 +70,4 @@ An html version of the example notebook is available in the [output](./output/) 
 
 - Version 1.0.1 (16APR2025)
   - Initial release on GitHub
- 
     
