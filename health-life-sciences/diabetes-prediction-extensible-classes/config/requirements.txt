@@ -1,0 +1,14 @@
+swat
+pandas
+git+https://github.com/SundareshSankaran/pharmmodel_class.git@main
+jupyter
+ipykernel
+pandas
+ydata_profiling
+scikit-learn
+matplotlib
+seaborn
+plotly
+optbinning
+statsmodels
+xgboost
